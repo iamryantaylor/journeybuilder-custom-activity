@@ -27,10 +27,10 @@ exports.execute = async (req, res) => {
         values: {
           Event: data.inArguments[0].DropdownOptions,
           Text: data.inArguments[0].Text,
-          Journey: data.inArguments[0].Journey,
-          Version: data.inArguments[0].Version,
-          Path: data.inArguments[0].Path,
-          Payload: data.inArguments[0].Payload,
+          Journey: data.inArguments[0].Text,
+          Version: data.inArguments[0].Text,
+          Path: data.inArguments[0].Text,
+          Payload: data.inArguments[0].Text,
         },
       },
     ]);
