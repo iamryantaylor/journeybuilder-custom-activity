@@ -35,5 +35,22 @@ block content
           .slds-form-element__control
             input#Text.slds-input.js-activity-setting(required='', placeholder='Journey Name', name='Journey')
 
+          label.slds-form-element__label.slds-p-top_medium(for='Version')
+            abbr.slds-required(title='required')
+            | Version Number *
+          .slds-form-element__control
+            input#Text.slds-input.js-activity-setting(required='', placeholder='Version Number', name='Version')
+
+          label.slds-form-element__label.slds-p-top_medium(for='Path')
+            abbr.slds-required(title='required')
+            | Path *
+          .slds-form-element__control
+            input#Text.slds-input.js-activity-setting(required='', placeholder='Path', name='Path')
+
+          label.slds-form-element__label.slds-p-top_medium(for='Payload')
+            abbr.slds-required(title='required')
+            | Payload (JSON) *
+          .slds-form-element__control
+            input#Text.slds-input.js-activity-setting(required='', placeholder='Payload JSON', name='Payload')                        
 
     footer.slds-card__footer
